@@ -37,6 +37,8 @@ class ExhibitBuilder_ExhibitsController extends Omeka_Controller_AbstractActionC
                 return array('title');
             case 'recent':
                 return array('added', 'd');
+            case 'slug':
+                return array('slug');
             default:
                 return null;
         }
