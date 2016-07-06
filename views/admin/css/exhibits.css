@@ -491,7 +491,7 @@
     border: 2px solid #fff;
 }
 
-.layout:first-of-type, .layout:nth-of-type(4n) { margin-left: 0; }
+.layout:nth-of-type(3n+1) { margin-left: 0; }
 
 .layout img {
     border: 1px solid #e7e7e7;
