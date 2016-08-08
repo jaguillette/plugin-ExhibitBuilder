@@ -28,6 +28,7 @@ $options = $block->getOptions();
         echo $this->formSelect($formStem . '[options][file-size]',
             @$options['file-size'], array(),
             array(
+                'original' => __('Original'),
                 'fullsize' => __('Fullsize'),
                 'thumbnail' => __('Thumbnail'),
                 'square_thumbnail' => __('Square Thumbnail')

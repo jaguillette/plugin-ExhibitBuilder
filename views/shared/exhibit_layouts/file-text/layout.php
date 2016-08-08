@@ -11,7 +11,7 @@ $captionPosition = isset($options['captions-position'])
 ?>
 <div class="exhibit-items <?php echo $position; ?> <?php echo $size; ?> captions-<?php echo $captionPosition; ?>">
     <?php foreach ($attachments as $attachment): ?>
-        <?php echo $this->exhibitAttachment($attachment, array('imageSize' => $size)); ?>
+        <?php echo $this->exhibitAttachment($attachment, array('imageSize' => $size),array(),true); ?>
     <?php endforeach; ?>
 </div>
 <?php echo $text; ?>
